@@ -3,10 +3,8 @@
 #### State: Work in progress, 12 June 2023
 #### Author: Timo Koehler
 
-The process of timetable construction is a common and repetitive task for High Schools worldwide.
-In the world of algorithms this problem is called "high school timetable problem", other variants exists for course and student based organisations, and they are all   referring to the task of creating an optimal class schedule for a high school or gymnasium, subject to various constraints and objectives. The goal is to assign subjects, teachers, and classrooms to specific time slots while satisfying all the necessary requirements and optimizing certain criteria.
-
-This problem involves numerous constraints that must be considered when constructing the timetable. Some common constraints include:
+The process of timetable construction is a common and repetitive task for schools worldwide.
+In the world of algorithms this problem is called "high school timetable problem", other variants exist for course and student-based educational institutions, and they are all referring to the task of creating an optimal schedule, subject to various constraints and objectives. The goal is to assign subjects, teachers, and classrooms to specific time slots while satisfying all the necessary requirements and optimizing certain criteria. This problem involves numerous constraints that must be considered when constructing the timetable. Some common constraints include:
 
 1. Teacher availability
 2. Classroom availability
@@ -18,7 +16,8 @@ This problem involves numerous constraints that must be considered when construc
 8. Time slots for specific locations, like Sporthalle oder Fachkabinett
 9. Reoptimization because of teacher sick days
 
-... and many more, depending on the concrete school. This project implements the hard and soft constraints and optimizes the result based on the objective formulated below.  
+... and many more, depending on the concrete school ans project.
+This project implements the hard and soft boundary conditions for a German Gymnasium and optimizes the result based on the objectives formulated below.
 
 Timetabling problems in their general form belong to the class of NP-complete problems giving little hope of finding an generic algorithm that produces an optimal result for any problem size and in polynomial bounded time. Nevertheless, specific timetabling problems with great practical relevancy can be solved using constraint integer programming approaches to model and solve the problem. Integer programming is a mathematical optimization technique that seeks to find the best assignment of variables subject to linear constraints. The binary nature of the variables in integer programming allows for the representation of binary decisions, such as whether a subject is assigned to a particular time slot. It becomes possible to find an optimal or near-optimal solution that meets the various constraints and objectives, resulting in an efficient and effective schedule.
 
